@@ -122,22 +122,22 @@ del_btn = QPushButton("Удалить заметку")
 del_btn.clicked.connect(del_note)
 del_btn.setStyleSheet("background:red")
 
-exit_btn = QPushButton("Выйти")
+exit_btn = QPushButton("Выйти11")
 exit_btn.clicked.connect(to_exit)
 exit_btn.setStyleSheet('background:red')
 
-save_btn = QPushButton("Сохранить")
+save_btn = QPushButton("Сохранить11")
 save_btn.clicked.connect(save_note)
 save_btn.setStyleSheet("background:lightgrey")
  
 tag_input = QLineEdit()
 tag_input.setStyleSheet("background:lightgrey")
 
-add_btn = QPushButton("Закрепить")
+add_btn = QPushButton("Закрепить11")
 add_btn.clicked.connect(add_tag)
 add_btn.setStyleSheet("background:green")
 
-del_tag_btn = QPushButton("Открепить")
+del_tag_btn = QPushButton("Открепить11")
 del_tag_btn.clicked.connect(del_tag)
 del_tag_btn.setStyleSheet("background:red")
 
